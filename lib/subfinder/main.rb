@@ -7,4 +7,4 @@ module Subfinder
       Logger.info Config.language.red
     end
   end
-  end
+end
