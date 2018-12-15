@@ -2,10 +2,12 @@ PATH
   remote: .
   specs:
     subfinder (0.1.0)
+      colorize (~> 0.8)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    colorize (0.8.1)
     minitest (5.11.3)
     rake (10.5.0)
 

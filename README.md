@@ -1,3 +1,14 @@
+# TODO
+- [x] get sub title language 
+- [ ] extarct all files
+- [ ] list all files
+- [ ] match srt for each video file
+- [ ] if not available then find it online
+- [ ] if language sub is not available then find english
+- [ ] download match subtitle
+- [ ] rename all amtches
+- [ ] move all other files to extar folder
+
 # Subfinder
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/subfinder`. To experiment with that code, run `bin/console` for an interactive prompt.

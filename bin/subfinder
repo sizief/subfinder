@@ -1,5 +1,5 @@
-#!/usr/bin/env ruby                                                                                                
-require 'bundler/setup'                                                         
-require_relative '../lib/subfinder'                                                                                                                    
+#!/usr/bin/env ruby
+require 'bundler/setup'
+require_relative '../lib/subfinder'
 
-Subfinder::Main.run    
+Subfinder::Main.run ARGV

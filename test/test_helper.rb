@@ -1,4 +1,4 @@
-$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "subfinder"
+$LOAD_PATH.unshift File.expand_path('../lib', __dir__)
+require 'subfinder'
 
-require "minitest/autorun"
+require 'minitest/autorun'

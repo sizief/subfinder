@@ -1,16 +1,15 @@
 module Subfinder
   class Subtitle
-    def initialize 
+    def initialize
       @subtitles = Config.subtitles
     end
 
-    def find video_file_name
+    def find(_video_file_name)
       match = nil
       @subtitles.each do |subtitle|
-        #match = subtitle if 
+        # match = subtitle if
       end
       match
     end
   end
-  
 end

@@ -1,12 +1,7 @@
 module Subfinder
   class Config
     class << self
-      attr_reader :subtitles
-      
-      def settings
-        @subtitles = ["ali", "mamad"]
-      end
+      attr_accessor :subtitles, :language, :url
     end
   end
 end
-  
