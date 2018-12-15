@@ -1,5 +1,5 @@
 module Subfinder
-    module Parser
+      module Parser
       class Args
         def initialize(args)
           @args = args
