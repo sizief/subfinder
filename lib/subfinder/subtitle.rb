@@ -4,7 +4,7 @@ module Subfinder
       @subtitles = Config.subtitles
     end
 
-    def find(_video_file_name)
+    def match(_video_file_name)
       match = nil
       @subtitles.each do |subtitle|
         # match = subtitle if

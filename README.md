@@ -9,7 +9,9 @@
 - [ ] if language sub is not available then find english
 - [ ] download match subtitle
 - [ ] rename all amtches
-- [ ] move all other files to extar folder
+- [x] move all other files to extar folder
+- [ ] move all other files from sub folders to main folder when extracting
+
 
 # Subfinder
 
