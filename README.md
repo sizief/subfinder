@@ -4,13 +4,13 @@
 - [x] get sub title language 
 - [x] extarct all files
 - [x] list all files
-- [ ] match srt for each video file
+- [x] match srt for each video file
+- [x] rename all amtches
+- [x] move all other files to extar folder
+- [ ] move all other files from sub folders to main folder when extracting
 - [ ] if not available then find it online
 - [ ] if language sub is not available then find english
 - [ ] download match subtitle
-- [ ] rename all amtches
-- [x] move all other files to extar folder
-- [ ] move all other files from sub folders to main folder when extracting
 
 
 # Subfinder

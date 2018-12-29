@@ -5,9 +5,8 @@ module Subfinder
         Subfinder::Logger.setting
         Logger.info welcome_message
         Subfinder::Parser::Args.new args
-        Subfinder::Parser::Files.prepare_file_list
-        Subfinder::Parser::Files.list
-        Logger.info Config.language.red
+        subtitle = Subfinder::Subtitle.new  Subfinder::Parser::Files.list
+        subtitle.match
       end
 
       def welcome_message

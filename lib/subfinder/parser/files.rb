@@ -2,12 +2,17 @@ module Subfinder
   module Parser
     class Files
       class << self
+
+        def list
+          prepare_file_list
+          Dir["#{Config.working_dir}/*"]
+        end
+
         def prepare_file_list
           files = Dir["#{Config.working_dir}/*"]
           compressed_files = files.select { |file| ['.zip', '.rar'].include? File.extname(file) }
           extract_all compressed_files
           move_compressed_files compressed_files
-          Config.file_list = Dir["#{Config.working_dir}/*"]
         end
 
         def extract_all(array_list)
