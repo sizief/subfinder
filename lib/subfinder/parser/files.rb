@@ -2,7 +2,6 @@ module Subfinder
   module Parser
     class Files
       class << self
-
         def list
           prepare_file_list
           Dir["#{Config.working_dir}/*"]
