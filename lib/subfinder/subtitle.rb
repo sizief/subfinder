@@ -16,6 +16,7 @@ module Subfinder
           subtitle = @files.select { |i| i[/#{episode.first}/] && i[/.srt/] }
           if subtitle.empty?
             Logger.info "Can not find subtitle for: #{File.basename(file)}".red
+            #TODO: find it online -> extract -> rename
           else
             File.rename(subtitle.first, File.dirname(subtitle.first) + '/' + File.basename(file).split('.')[0..-2].join('.') + '.srt')
             Logger.info "Subtitle successfully added for : #{File.basename(file)}".green
