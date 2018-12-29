@@ -2,15 +2,16 @@ require 'json'
 require 'colorize'
 require 'logger'
 require 'optparse'
+require 'zip'
 
-require 'subfinder/version'
-require 'subfinder/subtitle'
-require 'subfinder/config'
-require 'subfinder/main'
-require 'subfinder/logger'
+require_relative 'subfinder/version'
+require_relative 'subfinder/subtitle'
+require_relative 'subfinder/config'
+require_relative 'subfinder/main'
+require_relative 'subfinder/logger'
 
-require 'subfinder/parser/args'
-require 'subfinder/parser/files'
+require_relative 'subfinder/parser/args'
+require_relative 'subfinder/parser/files'
 
 module Subfinder
   # Your code goes here...

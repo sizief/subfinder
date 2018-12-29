@@ -23,6 +23,7 @@ module Subfinder
 
       def validate_required_args
         Config.language ||= 'en'
+        Config.working_dir = Dir.pwd
       end
 
       def usage_msg

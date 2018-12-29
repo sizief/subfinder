@@ -1,7 +1,9 @@
+[![CircleCI](https://circleci.com/gh/sizief/subfinder.svg?style=svg)](https://circleci.com/gh/sizief/subfinder)
+
 # TODO
 - [x] get sub title language 
-- [ ] extarct all files
-- [ ] list all files
+- [x] extarct all files
+- [x] list all files
 - [ ] match srt for each video file
 - [ ] if not available then find it online
 - [ ] if language sub is not available then find english
