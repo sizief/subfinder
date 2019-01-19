@@ -7,10 +7,12 @@
 - [x] match srt for each video file
 - [x] rename all amtches
 - [x] move all other files to extar folder
-- [ ] move all other files from sub folders to main folder when extracting
-- [ ] if not available then find it online
+- [x] if not available then find it online test
+- [ ] if not available then find it online code
 - [ ] if language sub is not available then find english
 - [ ] download match subtitle
+- [ ] move all other files from sub folders to main folder when extracting
+
 
 
 # Subfinder
@@ -39,20 +41,15 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
-## Development
+## How to development test
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Clone the project. Make changes and then `rake build` inside the project folder to create Gem.
+Then `gem install pkg/subfinder-0.0.1.gem` to install it locally. 
+Create a temp folder and run `movies_list_creator.rb` inside that folder. It will create fake files.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/subfinder. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Code of Conduct
 
-Everyone interacting in the Subfinder project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/subfinder/blob/master/CODE_OF_CONDUCT.md).

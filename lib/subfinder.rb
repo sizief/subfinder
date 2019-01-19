@@ -12,6 +12,8 @@ require_relative 'subfinder/logger'
 
 require_relative 'subfinder/parser/args'
 require_relative 'subfinder/parser/files'
+require_relative 'subfinder/parser/subscene'
+
 
 module Subfinder
   # Your code goes here...

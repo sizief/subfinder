@@ -9,9 +9,13 @@ class SubtitleTest < Minitest::Test
     create_files
   end
 
+  def teardown
+    FileUtils.rm_r @current_dir
+  end
+
   def test_match
     missing_files = []
-    subtitle = Subfinder::Subtitle.new(Subfinder::Parser::Files.list).match
+    Subfinder::Subtitle.new(Subfinder::Parser::Files.list).match
 
     Dir["#{@current_dir}/*"].each do |file|
       if Subfinder::Config.video_formats.include? File.extname(file) # it is a vidoe file
@@ -19,7 +23,6 @@ class SubtitleTest < Minitest::Test
         missing_files << subtitle_file unless File.exist? subtitle_file
       end
     end
-    FileUtils.rm_r @current_dir
     assert missing_files.empty?, "this is missing: #{missing_files}"
   end
 

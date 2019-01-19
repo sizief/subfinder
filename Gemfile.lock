@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    subfinder (0.1.0)
+    subfinder (0.0.1)
       colorize (~> 0.8)
       rubyzip (~> 1.2.2)
 
@@ -23,4 +23,4 @@ DEPENDENCIES
   subfinder!
 
 BUNDLED WITH
-   1.16.5
+   1.17.3
