@@ -8,8 +8,8 @@
 - [x] rename all amtches
 - [x] move all other files to extar folder
 - [x] if not available then find it online test
-- [ ] if not available then find it online code
-- [ ] if language sub is not available then find english
+- [x] if not available then find it online code
+- [x] if language sub is not available then find english
 - [ ] download match subtitle
 - [ ] move all other files from sub folders to main folder when extracting
 - [ ] add all lngauges codes
