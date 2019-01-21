@@ -12,6 +12,7 @@
 - [ ] if language sub is not available then find english
 - [ ] download match subtitle
 - [ ] move all other files from sub folders to main folder when extracting
+- [ ] add all lngauges codes
 
 
 
@@ -40,6 +41,7 @@ Or install it yourself as:
 ## Usage
 
 TODO: Write usage instructions here
+$ subfinder -l fa -u https://url.com
 
 ## How to development test
 

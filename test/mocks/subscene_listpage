@@ -1,0 +1,2187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<script data-cfasync='false' type="text/javascript" src="//keppet.com/keppetjs/?site_id=12"></script>
+	<title>Subscene - Subtitles for Agatha Christie&#39;s Poirot - Thirteenth Season</title>
+	
+
+	<!--[if lt IE 9]>
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="canonical" href="https://subscene.com/subtitles/agatha-christies-poirot-thirteenth-season" />
+	<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Subscene" />
+	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	
+
+	<link href="/css?v=Vz3x-O0AvO-jLV0X2L4OG5wNZgoSFPaeYkeSEuoEv_U1" rel="stylesheet"/>
+
+
+
+<script src="/js?v=gGSGH6YeGLyiuBi8eaD9RxXpnLe9W0Fp1mILQxc5EYw1" type="text/javascript"></script>
+
+	
+
+	<script type="text/javascript">
+		window.onerror = function () {
+		};
+	</script>
+
+
+</head>
+<body>
+
+	<header>
+		<nav id="forum-navigation">
+	<ul>
+		<li>
+			<a href="https://forum.subscene.com/">Forums</a>
+		</li>
+
+			<li>
+				<a href="/Home/DarkTheme">Dark Theme</a>
+			</li>
+	</ul>
+</nav>
+<nav id="user-navigation">
+	<ul>
+			<li>
+				<a href="https://subscene.com/account/login">Login or Register</a>
+			</li>
+	</ul>
+</nav>
+
+		<div id="logo">
+			<a href="/"><em>Subscene 3.0 </em></a>
+		</div>
+		
+<div id="search">
+	<div class="filter">
+	<ul>
+
+
+		<li>
+		<a href="/filter/edit" title="Change search filter">Change filter</a>
+	</li>
+
+	</ul>
+	
+</div> 
+
+	<form action="/subtitles/title">
+		
+		<input type="text" name="q" id="q" class="text" />
+		
+		<input type="hidden" name="l" id="l" class="text" value="" />
+		
+
+		<button type="submit">Subtitle Search</button>
+
+
+	</form>
+</div>
+
+		
+<nav class="main">
+	<ul>
+		<li>
+			<a href="https://subscene.com/browse" class="" >Browse</a>
+		</li>
+		<li>
+			<a href="https://u.subscene.com/upload/agatha-christies-poirot-thirteenth-season" >Upload</a>
+		</li>
+	</ul>
+</nav>
+	</header>
+	<div id="content" class="clearfix">
+
+		<div class="banner" style="min-height:200px">
+			
+
+
+
+	<div class="banner">
+
+
+						
+
+
+
+
+
+
+			<div class="size728">
+				<div class="jededplace" id="jededplace-3">
+					<script type="text/javascript">
+						(jededplaces = window.jededplaces || []).push(3);
+					</script>
+				</div>
+			</div>
+
+		
+
+	</div>
+
+
+		</div>
+
+		
+<script type="text/javascript">
+
+    function SortByDate(chkBox) {
+
+        var isChecked = chkBox.checked;
+
+        Set_Cookie("SortSubtitlesByDate", isChecked ? "true" : "false");
+
+        document.location.reload(true);
+    }
+
+</script>
+<div class="subtitles byFilm">
+    <h1>Subtitles for</h1>
+    <div class="box clearfix">
+        <div class="top right">
+            
+
+
+
+	<div class="banner">
+
+
+							<div class="size250">
+				<div class="jededplace" id="jededplace-5">
+					<script type="text/javascript">
+						(jededplaces = window.jededplaces || []).push(5);
+					</script>
+				</div>
+			</div>
+		
+
+
+
+
+
+
+
+		
+
+	</div>
+
+
+        </div>
+        <div class="top left">
+    <a title="Agatha Christie&#39;s Poirot - Thirteenth Season poster fullsize" href="https://i.jeded.com/i/agatha-christies-poirot-thirteenth-season.17680.jpg" target="_blank">
+        <div class="poster">
+            <img src="https://i.jeded.com/i/agatha-christies-poirot-thirteenth-season.154-17680.jpg" alt="Poster" />
+        </div>
+    </a>
+
+            <div class="header">
+                <h2>
+                    Agatha Christie&#39;s Poirot - Thirteenth Season
+                        <a target="_blank" class="imdb" href="https://www.imdb.com/title/tt94525">Imdb</a>
+                    <a class="imdb" href="javascript:Embed('flagContainer','https://subscene.com//flag/1/106290');" rel="nofollow">Flag</a>
+
+                </h2>
+                <ul>
+
+
+                    <li>
+                        <strong>
+                            Year:
+                        </strong>
+                        2013
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="flagContainer" id="flagContainer_Loading" style="display:none;">
+        <div class="window">
+            <h3>
+                Loading...
+            </h3>
+        </div>
+    </div>
+    <div id="flagWrapper" style="display:none;">
+        <div class="content">
+            <iframe class="flagContainer" id="flagContainer" style="display:none;"></iframe>
+        </div>
+    </div>
+
+
+	
+
+
+
+    <div class="content clearfix">
+        <div class="sort-by">
+            <input data-val="true" data-val-required="The SortByDate field is required." id="SortByDate" name="SortByDate" onclick="SortByDate(this)" type="checkbox" value="true" /><input name="SortByDate" type="hidden" value="false" />
+            <label for="SortByDate">Sort list by date</label>
+        </div>
+        	<ul class="rating-guide delimited">
+		<li>
+			<span class="positive">
+				Subtitles rated good
+			</span>
+		</li>
+		<li>
+			<span class="neutral">
+			Not rated
+			</span>
+		</li>
+		<li class="visited">
+			<span class="visited">
+			Visited
+			</span>
+		</li>
+	</ul>
+
+
+
+        <table>
+            <thead>
+                <tr>
+                    <td class="language">
+                        Language <span class="release-name">Release Name/Film title</span>
+                    </td>
+                    <td class="files">
+                        Files
+                    </td>
+                    <td class="ear">
+                        <abbr title="Hearing Impaired">
+                            H.I.
+                        </abbr>
+                    </td>
+                    <td class="owner">
+                        Owner
+                    </td>
+                    <td class="comment">
+                        Comment
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+
+	<tr>
+		<td colspan="5" class="language-start" id="arabic"></td>
+	</tr> 
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/1259827">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						13.03 Dead Man's Folly Blu-ray 720p-HighCode 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/840093">
+				Dr.Q_h
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تعديل توقيت الترجمة&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/1259827">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						13.03 Dead Man's Folly 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/840093">
+				Dr.Q_h
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تعديل توقيت الترجمة&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/815214">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						Agatha_Christie__Poirot_-_13x03_-_Dead_Man's_Folly.  
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/754732">
+				magdy.bassuony
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+ارجو اتستمتعوا بهذه الحلقة الثالثة&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/811321">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						Agatha_Christie__Poirot_-_13x02_-_The Big Four 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/754732">
+				magdy.bassuony
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+ارجولكم المتعة والرضاء عن الترجمة&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/872762">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						agatha.christies.poirot.s13e05.720p.hdtv.x264-river 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/639344">
+				hadi Ehmaid
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تعديل التوقيت فقط&nbsp;				</div>
+			</td>
+		</tr>
+						<tr>
+							<td colspan="5" class="banner-inlist">
+								
+
+
+
+	<div class="banner">
+
+
+						
+
+
+
+
+
+
+
+			<div class="size728">
+					<div class="jededplace" id="jededplace-16">
+						<script type="text/javascript">
+							(jededplaces = window.jededplaces || []).push(16);
+						</script>
+					</div>
+			</div>
+		
+
+	</div>
+
+
+							</td>
+						</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/872307">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						agatha.christies.poirot.s13e04.720p.hdtv.x264-river 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/639344">
+				hadi Ehmaid
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تعديل التوقيت فقط&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/871866">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						agatha.christies.poirot.s13e03.720p.hdtv.x264-river 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/639344">
+				hadi Ehmaid
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تعديل التوقيت &nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/840421">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						agatha.christies.poirot.s13e02.720p.hdtv.x264-bia 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/719620">
+				aktham
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+متوافقة مع هذه النسخة....&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/871865">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						agatha.christies.poirot.s13e01.720p.hdtv.x264-tla 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/639344">
+				hadi Ehmaid
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تعديل للتوقيت فقط&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/751393">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						Agatha Christie_ Poirot - 13x01 - Elephants Can Remember 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/754732">
+				magdy.bassuony
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+النسخة المتوافقة لكل الاحجام 445  وكذلك 1088 ميجابيت&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/821462">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						Agatha Christie Poirot 13x05 Curtain Poirot's Last Case 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/754732">
+				magdy.bassuony
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+آخر حلقات بوارو
+الحلقة الخامسة من الموسم الثالث عشر&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/816910">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						Agatha Christie Poirot 13x04 The Labours of Hercules 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/754732">
+				magdy.bassuony
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+ارجو الاستمتاع بالحلقة الرابعة
+اعمال هرقليز&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/arabic/872763">
+					<span class="l r positive-icon">
+						Arabic
+					</span>
+					<span>
+						agatha.christies.poirot.s13.720p.hdtv.x264 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				5
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/639344">
+				hadi Ehmaid
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تعديل التوقيت فقط&nbsp;				</div>
+			</td>
+		</tr>
+
+	<tr>
+		<td colspan="5" class="language-start" id="english"></td>
+	</tr> 
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1576892">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						S13E05.1080p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/917614">
+				Zodler
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1576853">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						S13E04.1080p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/917614">
+				Zodler
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1576776">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						S13E03.1080p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/917614">
+				Zodler
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1576760">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						S13E02.1080p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/917614">
+				Zodler
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1576752">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						S13E01.1080p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/917614">
+				Zodler
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1895375">
+					<span class="l r neutral-icon">
+						English
+					</span>
+					<span>
+						BluRay.1080p.AC3.H265.d3g 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1181838">
+				bellamy
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1811318">
+					<span class="l r neutral-icon">
+						English
+					</span>
+					<span>
+						Agatha.Christies.Poirot.S13E02.720p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/969666">
+				hadilan
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+NON-HI (ripped from sub/idx, fixed &amp; synced &amp; corrected) 
+[season 13 bluray pack]&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1811317">
+					<span class="l r neutral-icon">
+						English
+					</span>
+					<span>
+						Agatha.Christies.Poirot.S13.720p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a41">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/969666">
+				hadilan
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+HI (ripped from sub/idx, fixed &amp; synced &amp; corrected) 
+[season 13 bluray pack]&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1811318">
+					<span class="l r neutral-icon">
+						English
+					</span>
+					<span>
+						Agatha.Christies.Poirot.S13.1080p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/969666">
+				hadilan
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+NON-HI (ripped from sub/idx, fixed &amp; synced &amp; corrected) 
+[season 13 bluray pack]&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1811317">
+					<span class="l r neutral-icon">
+						English
+					</span>
+					<span>
+						Agatha.Christies.Poirot.S13.1080p.BluRay.x264-YELLOWBiRD 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a41">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/969666">
+				hadilan
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+HI (ripped from sub/idx, fixed &amp; synced &amp; corrected) 
+[season 13 bluray pack]&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1267722">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						Agatha Christie- Poirot S13E05 HDTV x264-RiVER 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/884125">
+				Lust4Power
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+HI cleares.. perfect&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1267723">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						Agatha Christie- Poirot S13E04 HDTV.x264-RiVER 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/884125">
+				Lust4Power
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+HI: perfect sync.&nbsp;				</div>
+			</td>
+		</tr>
+						<tr>
+							<td colspan="5" class="banner-inlist">
+								
+
+
+
+	<div class="banner">
+
+
+						
+
+
+
+
+
+
+
+					<div class="size728">
+					<div class="jededplace" id="jededplace-19">
+						<script type="text/javascript">
+							(jededplaces = window.jededplaces || []).push(19);
+						</script>
+					</div>
+			</div>
+
+
+	</div>
+
+
+							</td>
+						</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1267727">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						Agatha Christie- Poirot S13E03 HDTV.x264-RiVER 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/884125">
+				Lust4Power
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+HI cleared: Perfect sync. thnks addic7ed.com&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/1267725">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						Agatha Christie- Poirot S13E02 HDTV.x264-RiVER 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/884125">
+				Lust4Power
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+HI: Perfect sync&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/906427">
+					<span class="l r neutral-icon">
+						English
+					</span>
+					<span>
+						Poirot - Dead Man's Folly - Season 13 - Episode 03 -HDTVx264 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/222001">
+				Dawnz
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+Fits all The 2013 online version of Dead&#39;s Man&#39;s Folly - Poirot Season 13 episode 13&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/english/743013">
+					<span class="l r positive-icon">
+						English
+					</span>
+					<span>
+						Agatha Christie: Poirot S13E01 - Elephants Can Remember.HDTV.thebox.Hannibal.HI 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a41">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/585655">
+				iten_nate_river
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+(Please Rate)&nbsp;				</div>
+			</td>
+		</tr>
+
+	<tr>
+		<td colspan="5" class="language-start" id="farsi_persian"></td>
+	</tr> 
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1434023">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Poirot season 13 Complet (bluray-720p-h.265-) 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/965843">
+				amirhosseinmonsefi
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+من هماهنگ کردم-خیلی هم طول کشید&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1095043">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Poirot S13E01 - Elephants Can Remember 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/819010">
+				magical_think
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+من فقط هماهنگ کردم - هماهنگ با نسخه ایران فیلم&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1901571">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Agatha Christies Poirot S13E05 - Curtain Poirot's Last Case [BWBP] 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1005677">
+				LutheinLeaf
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تنظیم مجدد&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1901570">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Agatha Christies Poirot S13E04 - The Labours of Hercules [BWBP] 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1005677">
+				LutheinLeaf
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تنظیم مجدد&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1901569">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Agatha Christies Poirot S13E03 - Dead Man's Folly [BWBP] 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1005677">
+				LutheinLeaf
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تنظیم مجدد&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1901568">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Agatha Christies Poirot S13E02 - The Big Four [BWBP] 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1005677">
+				LutheinLeaf
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تنظیم مجدد&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1901567">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Agatha Christies Poirot S13E01 - Elephants Can Remember [BWBP] 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1005677">
+				LutheinLeaf
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+تنظیم مجدد&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1095049">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						ACP.S13E05.480p_IFR 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/819010">
+				magical_think
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+من فقط هماهنگ کردم - هماهنگ با نسخه ایران فیلم&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1095048">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						ACP.S13E04.480p_IFR 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/819010">
+				magical_think
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+من فقط هماهنگ کردم - هماهنگ با نسخه ایران فیلم &nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1095047">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						ACP.S13E03.480p_IFR 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/819010">
+				magical_think
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+من فقط هماهنگ کردم - هماهنگ با نسخه ایران فیلم&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/1095046">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						ACP.S13E02.480p_IFR 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/819010">
+				magical_think
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+من فقط هماهنگ کردم - هماهنگ با نسخه ایران فیلم&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/846723">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Poirot S13E05 - Curtain  Poirot's Last Case 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/606272">
+				Red2008
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+red2008 مترجم مجتبی imdb-dl.com گروه ترجمه 
+&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/843013">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Poirot S13E04 - The Labours of Hercules 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/606272">
+				Red2008
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+red2008 مترجم مجتبی imdb-dl.com گروه ترجمه&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/839021">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Poirot S13E03 - Dead Man's Folly 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/606272">
+				Red2008
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+red2008 مترجم مجتبی imdb-dl.com گروه ترجمه &nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/832935">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Poirot S13E02 - The Big Four 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/606272">
+				Red2008
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+red2008 مترجم مجتبی imdb-dl.com گروه ترجمه &nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/829521">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Poirot S13E01 - Elephants Can Remember 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/606272">
+				Red2008
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+red2008 مترجم مجتبی imdb-dl.com گروه ترجمه &nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/830780">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						AGATHA CHRISTIE&RSQUO;S POIROT S13E05 - Curtain  
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/814477">
+				sadrabadym
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+بهترین و دقیق ترین زیرنویس ویرایش بر اساس کتاب پرده اثر آگاتا کریستی&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/826003">
+					<span class="l r neutral-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						 Agatha Christie Poirot 13x05 Curtain Poirot's Last Case 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a41">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/666844">
+				hamid1368
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+در صورت آمدن زیر نویس انگلیسی دوباره ویرایشش می کنم &nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/farsi_persian/830925">
+					<span class="l r positive-icon">
+						Farsi/Persian
+					</span>
+					<span>
+						Agatha Christie's Poirot - Thirteenth Season  
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/814477">
+				sadrabadym
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+بهترین و دقیق ترین زیرنویس ویرایش بر اساس کتاب پرده اثر آگاتا کریستی&nbsp;				</div>
+			</td>
+		</tr>
+
+	<tr>
+		<td colspan="5" class="language-start" id="finnish"></td>
+	</tr> 
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/finnish/809706">
+					<span class="l r neutral-icon">
+						Finnish
+					</span>
+					<span>
+						Agatha.Christies.Poirot.S13E02.HDTV.x264-RiVER 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/780323">
+				finsubs
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/finnish/809705">
+					<span class="l r neutral-icon">
+						Finnish
+					</span>
+					<span>
+						Agatha.Christies.Poirot.S13E01.HDTV.x264-TLA 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/780323">
+				finsubs
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+	<tr>
+		<td colspan="5" class="language-start" id="french"></td>
+	</tr> 
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/french/1397664">
+					<span class="l r positive-icon">
+						French
+					</span>
+					<span>
+						Agatha Christie_ Poirot - 13x01 - Elephants Can Remember.TLA.French.C.updated.Addic7ed.com 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1015153">
+				copieur
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+
+	<tr>
+		<td colspan="5" class="language-start" id="indonesian"></td>
+	</tr> 
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/indonesian/1891263">
+					<span class="l r positive-icon">
+						Indonesian
+					</span>
+					<span>
+						Agatha Christie- Poirot -S13E02- The Big Four.HDTV.x264-RiVER.Indonesia.HI.C.updated.Addic7ed 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1180479">
+				MelTanuwijaya
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+Revisi dari yang kemarin.
+Feedback please. Thank you&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/indonesian/830523">
+					<span class="l r positive-icon">
+						Indonesian
+					</span>
+					<span>
+						Agatha.Christies.Poirot.S13E01.Elephants.Can.Remember.2013.itv.Xvid 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/487140">
+				xtalplanet
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+www.xtalplanet.blogspot.com&nbsp;				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/indonesian/830523">
+					<span class="l r positive-icon">
+						Indonesian
+					</span>
+					<span>
+						Agatha.Christies.Poirot.S13E01.Elephants.Can.Remember.2013.HDTV.thebox.Hannibal 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				1
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/487140">
+				xtalplanet
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+www.xtalplanet.blogspot.com&nbsp;				</div>
+			</td>
+		</tr>
+
+	<tr>
+		<td colspan="5" class="language-start" id="portuguese"></td>
+	</tr> 
+		<tr>
+			<td class="a1">
+				<a href="/subtitles/agatha-christies-poirot-thirteenth-season/portuguese/1895374">
+					<span class="l r neutral-icon">
+						Portuguese
+					</span>
+					<span>
+						BluRay.1080p.AC3.H265.d3g 
+					</span>
+				</a>
+			</td>
+			<td class="a3">
+				
+			</td>
+			<td class="a40">
+				&nbsp;
+			</td>
+			<td class="a5">
+
+			<a href="/u/1181838">
+				bellamy
+			</a>
+			</td>
+			<td class="a6">
+				<div>
+&nbsp;				</div>
+			</td>
+		</tr>
+                            </tbody>
+        </table>
+            </div>
+</div>
+
+
+		<div class="bottom">
+
+			
+
+
+
+	<div class="banner">
+
+
+						
+
+
+
+
+
+
+
+		
+
+			<div class="size728">
+					<div class="jededplace" id="jededplace-9">
+						<script type="text/javascript">
+							(jededplaces = window.jededplaces || []).push(9);
+						</script>
+					</div>
+					<div class="jededplace" id="jededplace-17">
+						<script type="text/javascript">
+							(jededplaces = window.jededplaces || []).push(17);
+						</script>
+					</div>
+			</div>
+	</div>
+
+
+
+		</div>
+	</div>
+
+	<div id="sidebar-left">
+		
+
+
+
+	<div class="banner">
+
+
+						
+
+
+
+
+
+				<div style='width:160px;'>
+					<div class="jededplace" id="jededplace-4">
+						<script type='text/javascript'>
+							(jededplaces = window.jededplaces || []).push(4);
+						</script>
+					</div>
+				</div>
+
+
+		
+
+	</div>
+
+
+	</div>
+
+	
+
+
+<footer>
+	<div>
+		<div class="right">
+			
+
+			
+		</div>
+		<div class="copyright">
+			<a href="/">
+				2005-2019 Subscene <span class="version">(Version 4.0)</span>
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<div class="twitter">
+						<a href="https://twitter.com/subscene_com" class="twitter-follow-button">@subscene_com</a>
+					</div>
+				</li>
+
+				<li>
+					<a href="/site/legal-information">Legal Information</a>
+				</li>
+				<li>
+					<a href="https://c.subscene.com">Content Verification Program</a>
+				</li>
+				<li>
+					<a href="https://u.subscene.com/site/contact">Contact us</a>
+				</li>
+				<li>
+					<a href="https://jeded.com">Uses Jeded.com Services</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="sustain">
+		<p>
+			<strong>The Planet is ours - where are we going!?</strong>
+		</p>
+		With the global population soaring towards <strong>9 billion people</strong> by <strong>2050</strong> current levels of <strong>meat</strong> and <strong>dairy consumption</strong> are not sustainable on our limited earth.
+		<div>
+			<nav>
+				<ul>
+					<li>
+						Watch youtube:
+					</li>
+					<li>
+						<a href="https://youtu.be/jqxENMKaeCU?t=20m38s">Planet Home</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/watch?v=eH1s9GCqPKo">Planet Ocean</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/watch?v=O6GimGZz6a8">Why not eat insects?</a>
+					</li>
+					<li>
+						<a href="http://www.cowspiracy.com/">Cowspiracy</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+
+
+		<script>
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', ('IUIO' + 'OAIO' + '-I3OI' + '4IOO' + 'I07I' + 'IOII' + 'I0I7' + '-OI2O').replace(/i/gi, "").replace(/o/gi, ""), 'subscene.com');
+			ga('send', 'pageview');
+
+		</script>
+		<script type="text/javascript">
+
+			if (top.location != location) {
+				top.location.href = document.location.href;
+			}
+
+
+			window.onload = function () {
+				setTimeout(function () {
+
+					// Is anon user
+					//
+					if (typeof web3 !== 'undefined') {
+						if (typeof ga !== 'undefined') {
+							ga('send', 'event', 'Metamask', 'Yes', {'nonInteraction': 1});
+						}
+					}
+
+				}, 3000); // 3 seconds after page load
+			};
+
+
+			// Track ad-blocking
+
+			//window.onload = function () {
+
+			//	setTimeout(function () {
+
+			//		// Is anon user
+			//		//
+			//		if (typeof token === 'undefined') {
+			//			var ad = document.querySelector("ins.adsbygoogle");
+
+			//			if (ad && ad.innerHTML.replace(/\s/g, "").length == 0) {
+			//				if (typeof ga !== 'undefined') {
+			//					ga('send', 'event', 'Adblock', 'Yes', {'nonInteraction': 1});
+			//				}
+			//			}
+			//		}
+
+			//	}, 3000); // 3 seconds after page load
+			//};
+
+		</script>
+
+</footer>
+
+
+
+
+	
+
+
+	<script>
+		window._taboola = window._taboola || [];
+		_taboola.push({ flush: true });
+	</script>
+
+	<div class="jededplace" id="jededplace-18">
+		<script type="text/javascript">
+			(jededplaces = window.jededplaces || []).push(18);
+		</script>
+	</div>
+
+	<script type="text/javascript">
+        window.cookieconsent_options = { "message": "We use cookies to ensure you get the best experience on our website", "dismiss": "Got it!", "learnMore": "More info", "link": "http://subscene.com/site/legal-information#cookies", "theme": "light-bottom" };
+	</script>
+	<script type="text/javascript" src="/Scripts/cookieconsent.min.js"></script>
+	<script type="text/javascript" src="https://ads.jeded.com/user.js"></script>
+	<script type="text/javascript" src="https://ads.jeded.com/ads/1.js"></script>
+
+
+</body>
+</html>

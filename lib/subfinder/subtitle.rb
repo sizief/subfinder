@@ -42,9 +42,10 @@ module Subfinder
     end
 
     def download file
-      #TODO: find it online -> extract -> rename
-      subscene_sub = Subfinder::Parser::subscene.new file
-      if subscene_sub.downloaded?
+      #TODO: find it online -> extract
+      subscene = Subfinder::Parser::subscene.new file
+      subscene.download
+      if subscene.successful_download?
         Subfinder::Parser::Files::prepare_file_list
         true
       else
