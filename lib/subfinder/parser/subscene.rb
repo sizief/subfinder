@@ -13,7 +13,7 @@ module Subfinder
 
       def run
         target_uri = find_link(create_links_list(open_online_document(Config.url)))
-        Subfinder::Parser.download find_download_link(open_online_document(DOMAIN + target_uri))
+        Subfinder::Parser.download.new find_download_link(open_online_document(DOMAIN + target_uri))     
       end
 
       def open_online_document(url)
@@ -27,10 +27,6 @@ module Subfinder
           download_link = link.xpath('./a/@href').to_s.strip # link
         end
         DOMAIN + download_link
-      end
-
-      def successful_download
-        false
       end
 
       def find_link(links)

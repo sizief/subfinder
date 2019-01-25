@@ -29,10 +29,12 @@ module Subfinder
       if subtitle.empty?
         Logger.info "Can not find subtitle for: #{File.basename(file)}"
         Logger.info 'Searching Subscene...'
-        if download file
-          Logger.info 'Subtitle found and downloaded!'
+        subscene = Subfinder::Parser::subscene.new(file)
+        if subscene.run
+          Subfinder::Parser::Files::prepare_file_list
+          Logger.info "Subtitle downloaded for #{File.basename(file)}"
         else
-          Logger.info 'Subtitle can not found on Subscene'.red
+          Logger.info "Subtitle can not found on Subscene for #{File.basename(file)}".red
           @failure += 1
           return
         end
@@ -42,17 +44,5 @@ module Subfinder
       @success += 1
     end
 
-    def download(_file)
-      # TODO: find it online -> extract
-      # subscene = Subfinder::Parser::subscene.new file
-      # subscene.download
-      # if subscene.successful_download?
-      #  Subfinder::Parser::Files::prepare_file_list
-      #  true
-      # else
-      #  false
-      # end
-      false
-    end
   end
 end
