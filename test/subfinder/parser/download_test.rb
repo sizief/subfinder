@@ -12,7 +12,7 @@ class DownnloadTest < Minitest::Test
     FileUtils.rm_r @current_dir
   end
 
-  def test_false_save
+  def xtest_false_save
     assert(!Subfinder::Parser::Download.new('wrong address').save)
     VCR.use_cassette("wrong_download_url") do
       assert(!Subfinder::Parser::Download
@@ -25,6 +25,14 @@ class DownnloadTest < Minitest::Test
     VCR.use_cassette("download_subtitle") do
       url = 'https://subscene.com/subtitles/english-text/sHJhr2I4lE-yw2DpHCHhU6LyQAVblnCco40Xz5BU-xauDoWZfM8IhubEeueArDbYwwz751JTHn1HgswFviy0JfUrVjFwswSoC9tjHmgomeZeWjSXSjgUnYAVQr12v6U30'.freeze
       assert(Subfinder::Parser::Download.new(url).save)
+    end
+  end
+
+  def test_file_exist_after_save
+    VCR.use_cassette("download_subtitle") do
+      url = 'https://subscene.com/subtitles/english-text/sHJhr2I4lE-yw2DpHCHhU6LyQAVblnCco40Xz5BU-xauDoWZfM8IhubEeueArDbYwwz751JTHn1HgswFviy0JfUrVjFwswSoC9tjHmgomeZeWjSXSjgUnYAVQr12v6U30'.freeze
+      Subfinder::Parser::Download.new(url).save
+      assert(!Dir[Subfinder::Config.working_dir+'/*'].empty?)
     end
   end
 end

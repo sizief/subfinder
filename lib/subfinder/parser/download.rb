@@ -11,7 +11,7 @@ module Subfinder
         return false unless response_is_healthy? res
 
         file_name = res.headers[:content_disposition].split('=')[1]
-        File.write("#{Dir.pwd}/#{file_name}", res.body)
+        File.write("#{Config.working_dir}/#{file_name}", res.body)
         true
       rescue StandardError => e
         Logger.info "Error when downloading '#{@url}'\n Error message: #{e}\n".red
