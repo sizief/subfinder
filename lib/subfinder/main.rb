@@ -5,8 +5,7 @@ module Subfinder
         Subfinder::Logger.setting
         Logger.info welcome_message
         Subfinder::Parser::Args.new args
-        subtitle = Subfinder::Subtitle.new Subfinder::Parser::Files.list
-        subtitle.match
+        subtitle = Subfinder::Subtitle.new.match
       end
 
       def welcome_message

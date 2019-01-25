@@ -11,9 +11,9 @@ module Subfinder
         @file_name = file_name
       end
 
-      def run
+      def get
         target_uri = find_link(create_links_list(open_online_document(Config.url)))
-        Subfinder::Parser.download.new find_download_link(open_online_document(DOMAIN + target_uri))
+        Subfinder::Parser::Download.new(find_download_link(open_online_document(DOMAIN + target_uri))).save
       end
 
       def open_online_document(url)
@@ -42,6 +42,7 @@ module Subfinder
             winner = link[2]
           end
         end
+        # Logger.info "winner is #{winner}"
         winner
       end
 

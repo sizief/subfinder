@@ -12,6 +12,7 @@ module Subfinder
 
         file_name = res.headers[:content_disposition].split('=')[1]
         File.write("#{Config.working_dir}/#{file_name}", res.body)
+        Logger.info "Downloaded to #{Config.working_dir}/#{file_name}"
         true
       rescue StandardError => e
         Logger.info "Error when downloading '#{@url}'\n Error message: #{e}\n".red
