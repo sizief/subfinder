@@ -16,5 +16,4 @@ require_relative 'subfinder/parser/subscene'
 require_relative 'subfinder/parser/download'
 
 module Subfinder
-  # Your code goes here...
 end

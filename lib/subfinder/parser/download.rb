@@ -2,11 +2,11 @@ require 'rest-client'
 module Subfinder
   module Parser
     class Download
-      def initialize url
+      def initialize(url)
         @url = url
       end
 
-      def save 
+      def save
         res = RestClient.get @url
         return false unless response_is_healthy? res
 
@@ -21,12 +21,12 @@ module Subfinder
       def response_is_healthy?(res)
         if res.code != 200
           Logger.info "Error when downloading '#{@url}'\n Error message: resposnse code is #{res.code}\n".red
-          return false 
+          false
         elsif res.body.include? 'An error occurred while processing your request.'
           Logger.info "Error when downloading '#{@url}'\n Error message:  'An error occurred while processing your request.'\n".red
-          return false
+          false
         else
-          return true
+          true
         end
       end
     end

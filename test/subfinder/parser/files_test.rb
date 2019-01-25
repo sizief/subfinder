@@ -2,7 +2,9 @@ require 'test_helper'
 
 class FilesTest < Minitest::Test
   def setup
-    @current_dir = Dir.pwd + '/test/samples/compressed'
+    @current_dir = Dir.pwd + '/test/samples/play_ground'
+    Dir.mkdir(@current_dir)
+    Dir["#{Dir.pwd}/test/samples/compressed_files/*"].each { |f| FileUtils.copy(f, @current_dir + '/' + File.basename(f)) }
     Subfinder::Config.working_dir = @current_dir
   end
 
@@ -12,6 +14,10 @@ class FilesTest < Minitest::Test
     assert files.all? { |x| x.include?('.zip') || x.include?('.rar') }
   end
 
+  def teardown
+    FileUtils.rm_r @current_dir
+  end
+
   def test_file_list
     setup_test
     Subfinder::Parser::Files.prepare_file_list
@@ -19,14 +25,5 @@ class FilesTest < Minitest::Test
     assert_equal files.size, 4, files.to_s
     assert !files.all? { |x| x.include?('.zip') || x.include?('.rar') }
     assert !files.all? { |x| x.include? '.srt' }
-    revert_to_starting_phase
-  end
-
-  def revert_to_starting_phase
-    # move compressed files back to one level upper directory
-    Dir["#{@current_dir}/compressed/*"].each { |f| File.rename(f, @current_dir + '/' + File.basename(f)) }
-    # delete compressed folder and extracted files
-    Dir["#{@current_dir}/*"].each { |f| File.delete(f) if f.include? '.srt' }
-    Dir.rmdir "#{@current_dir}/compressed"
   end
 end

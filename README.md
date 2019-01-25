@@ -10,11 +10,11 @@
 - [x] if not available then find it online test
 - [x] if not available then find it online code
 - [x] if language sub is not available then find english
-- [ ] download match subtitle
+- [x] download match subtitle
 - [ ] move all other files from sub folders to main folder when extracting
 - [ ] add all lngauges codes
 - [ ] add messages for timeout on web browsing
-- [ ] save config for later use
+- [ ] save user entered config for later use
 
 # Tips for writing article about this gem
 - Using VCR for testing 

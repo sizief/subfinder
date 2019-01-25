@@ -29,9 +29,9 @@ module Subfinder
       if subtitle.empty?
         Logger.info "Can not find subtitle for: #{File.basename(file)}"
         Logger.info 'Searching Subscene...'
-        subscene = Subfinder::Parser::subscene.new(file)
+        subscene = Subfinder::Parser.subscene.new(file)
         if subscene.run
-          Subfinder::Parser::Files::prepare_file_list
+          Subfinder::Parser::Files.prepare_file_list
           Logger.info "Subtitle downloaded for #{File.basename(file)}"
         else
           Logger.info "Subtitle can not found on Subscene for #{File.basename(file)}".red
@@ -43,6 +43,5 @@ module Subfinder
       Logger.info "Subtitle added for: #{File.basename(file)}"
       @success += 1
     end
-
   end
 end

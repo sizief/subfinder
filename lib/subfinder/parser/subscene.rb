@@ -13,7 +13,7 @@ module Subfinder
 
       def run
         target_uri = find_link(create_links_list(open_online_document(Config.url)))
-        Subfinder::Parser.download.new find_download_link(open_online_document(DOMAIN + target_uri))     
+        Subfinder::Parser.download.new find_download_link(open_online_document(DOMAIN + target_uri))
       end
 
       def open_online_document(url)
