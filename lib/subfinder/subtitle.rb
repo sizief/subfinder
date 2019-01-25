@@ -34,8 +34,7 @@ module Subfinder
     def find_subtitle_for(video_file)
       subtitles = Subfinder::Parser::Files.list.select { |i| i[/#{episode_number(video_file)}/] && i[/.srt/] }
       if subtitles.empty?
-        Logger.info "Subtitle for: #{File.basename(video_file)} is not exists on disk "
-        Logger.info 'Searching Subscene...'
+        Logger.info "Subtitle for #{File.basename(video_file)} is not exists on disk "
         subscene = Subfinder::Parser::Subscene.new(video_file)
         if subscene.get
           Subfinder::Parser::Files.prepare_file_list

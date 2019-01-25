@@ -15,7 +15,7 @@ class SubtitleTest < Minitest::Test
 
   def test_match
     missing_files = []
-    Subfinder::Subtitle.new(Subfinder::Parser::Files.list).match
+    Subfinder::Subtitle.new.match
 
     Dir["#{@current_dir}/*"].each do |file|
       if Subfinder::Config.video_formats.include? File.extname(file) # it is a vidoe file
