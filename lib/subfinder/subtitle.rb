@@ -24,7 +24,7 @@ module Subfinder
     private
 
     def episode_number(video_file)
-      video_file.scan(/[a-zA-Z]+\d+\d+[a-zA-Z]+\d+\d/).first
+      video_file.scan(/[a-zA-Z]+\d+\d+[a-zA-Z]+\d+\d/).first.downcase
     end
 
     def subtitle_exists?(video_file)
@@ -32,7 +32,7 @@ module Subfinder
     end
 
     def find_subtitle_for(video_file)
-      subtitles = Subfinder::Parser::Files.list.select { |i| i[/#{episode_number(video_file)}/] && i[/.srt/] }
+      subtitles = Subfinder::Parser::Files.list.select { |item| item[/#{episode_number(video_file)}/i] && item[/.srt/] }
       if subtitles.empty?
         Logger.info "Subtitle for #{File.basename(video_file)} is not exists on disk "
         subscene = Subfinder::Parser::Subscene.new(video_file)
@@ -49,7 +49,7 @@ module Subfinder
     end
 
     def rename_subtitle(video_file)
-      subtitles = Subfinder::Parser::Files.list.select { |i| i[/#{episode_number(video_file)}/] && i[/.srt/] }
+      subtitles = Subfinder::Parser::Files.list.select { |item| item[/#{episode_number(video_file)}/i] && item[/.srt/] }
       File.rename(subtitles.first, File.dirname(subtitles.first) + '/' + File.basename(video_file).split('.')[0..-2].join('.') + '.srt')
       Logger.info "Subtitle renamed for: #{File.basename(video_file)}"
       @success += 1

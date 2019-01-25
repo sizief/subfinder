@@ -16,6 +16,8 @@ module Subfinder
         opts.on('-l', '--language language', 'Set subtitle language') { |language| Config.language = language }
         opts.on('-v', '--version', 'Show the Compare Crypto version') { puts("compare-crypto #{CompareCrypto::VERSION}"); exit }
         opts.on('-h', '--help', 'Show this message') { puts(opts); exit }
+        opts.on('-d', '--debug', 'debug') {Config.debug = true }
+
         opts.parse!(@args)
       end
 

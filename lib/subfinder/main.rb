@@ -9,7 +9,11 @@ module Subfinder
       end
 
       def welcome_message
-        'welcome to subfinder Gem!'.green
+        '''
+        
+        welcome to subfinder Gem!
+        
+        '''.green
       end
     end
   end

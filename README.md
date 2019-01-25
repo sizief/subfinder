@@ -1,33 +1,12 @@
 [![CircleCI](https://circleci.com/gh/sizief/subfinder.svg?style=svg)](https://circleci.com/gh/sizief/subfinder) [![Maintainability](https://api.codeclimate.com/v1/badges/847c36c4319bef81de03/maintainability)](https://codeclimate.com/github/sizief/subfinder/maintainability)
 
-# TODO
-- [x] get sub title language 
-- [x] extarct all files
-- [x] list all files
-- [x] match srt for each video file
-- [x] rename all amtches
-- [x] move all other files to extar folder
-- [x] if not available then find it online test
-- [x] if not available then find it online code
-- [x] if language sub is not available then find english
-- [x] download match subtitle
-- [ ] move all other files from sub folders to main folder when extracting
-- [ ] add all languages codes
-- [ ] add messages for timeout on web browsing
-- [ ] save user entered config for later use
-- [ ] check for internet connectivity or issue for accessing blocked websites
-
 # Tips for writing article about this gem
 - Using VCR for testing 
 
 
 
 # Subfinder
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/subfinder`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
+You have a TV series without subtitles. Open the terminal, go to the folder where you saved your files, and run `subfinder`. It will find the similar subtitle files on the folder and rename it to video file plus `.srt`. If the subtitles are not exists on your disk, then it will download, extract and rename from the `subscene` url you provided. 
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -46,8 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-$ subfinder -l fa -u https://url.com
+`$ subfinder --url https://subscene.com/subtitles/the-kominsky-method -l fa`  
 
 ## How to development test
 
@@ -61,3 +39,19 @@ Create a temp folder and run `movies_list_creator.rb` inside that folder. It wil
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 
+# TODO
+- [x] get sub title language 
+- [x] extarct all files
+- [x] list all files
+- [x] match srt for each video file
+- [x] rename all amtches
+- [x] move all other files to extar folder
+- [x] if not available then find it online test
+- [x] if not available then find it online code
+- [x] if language sub is not available then find english
+- [x] download match subtitle
+- [x] check for internet connectivity or issue for accessing blocked websites
+- [ ] move all other files from sub folders to main folder when extracting
+- [ ] add all language codes
+- [ ] add messages for timeout on web browsing
+- [ ] save user entered config for later use

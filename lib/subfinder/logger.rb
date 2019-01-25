@@ -13,6 +13,10 @@ module Subfinder
       def info(str)
         @logger.info(str)
       end
+
+      def debug(str)
+        @logger.info(str) if Config.debug
+      end
     end
   end
 end

@@ -18,6 +18,9 @@ module Subfinder
 
       def open_online_document(url)
         open url
+      rescue StandardError => e
+        Logger.info "Error when connecting to '#{url}'\n Error message: #{e}\n".red
+        abort("Check your internet connection or VPN and try again")
       end
 
       def find_download_link(page)
@@ -26,6 +29,7 @@ module Subfinder
         doc.css('.download').each do |link|
           download_link = link.xpath('./a/@href').to_s.strip # link
         end
+        Logger.debug "download_link: #{download_link}"
         DOMAIN + download_link
       end
 
@@ -42,7 +46,7 @@ module Subfinder
             winner = link[2]
           end
         end
-        # Logger.info "winner is #{winner}"
+        Logger.debug "winner is #{winner}"
         winner
       end
 
@@ -51,9 +55,10 @@ module Subfinder
         file_name_array = @file_name.split('.')
         # next we want to know if name of the sub is seprataed by . or space
         target_array = target.split('.').size > target.split(' ').size ? target.split('.') : target.split(' ')
-
+        target_array = target_array.map{|word| word.downcase}
+        
         file_name_array.each do |word|
-          point += 1 if target_array.include? word
+          point += 1 if target_array.include? word.downcase
         end
         (point * 100) / file_name_array.size
       end
@@ -68,6 +73,7 @@ module Subfinder
                     link.xpath('./td/a/span/text()')[1].to_s.strip, # name
                     link.xpath('./td/a/@href')[0].to_s.strip] # link
         end
+        Logger.debug "array_list: #{array}"
         array
       end
 
