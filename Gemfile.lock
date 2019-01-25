@@ -10,12 +10,26 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorize (0.8.1)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    mime-types (2.99.3)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
+    netrc (0.11.0)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
     rake (10.5.0)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     rubyzip (1.2.2)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    vcr (4.0.0)
 
 PLATFORMS
   ruby
@@ -24,7 +38,9 @@ DEPENDENCIES
   bundler (~> 1.16)
   minitest (~> 5.0)
   rake (~> 10.0)
+  rest-client (~> 1.8.0)
   subfinder!
+  vcr (~> 4.0.0)
 
 BUNDLED WITH
    1.17.3

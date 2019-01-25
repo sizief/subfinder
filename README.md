@@ -13,6 +13,11 @@
 - [ ] download match subtitle
 - [ ] move all other files from sub folders to main folder when extracting
 - [ ] add all lngauges codes
+- [ ] add messages for timeout on web browsing
+- [ ] save config for later use
+
+# Tips for writing article about this gem
+- Using VCR for testing 
 
 
 

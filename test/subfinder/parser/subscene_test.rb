@@ -9,7 +9,7 @@ class SubsceneTest < Minitest::Test
     @name = 'Agatha.Christies.Poirot.S13E02.1080p.BluRay.x264.mkv'
     @subscene_sub = Subfinder::Parser::Subscene.new @name
   end
-  
+
   def teardown
     FileUtils.rm_r @current_dir
   end
@@ -24,8 +24,8 @@ class SubsceneTest < Minitest::Test
     assert_equal @subscene_sub.match_point_for('Agatha.Christies.Poirot.S13E02'), 50
     assert_equal @subscene_sub.match_point_for('Agathaa.Chriasties.Poairot'), 0
     assert_equal @subscene_sub.match_point_for("#{@name}.extra"), 100
-    assert_equal @subscene_sub.match_point_for("not.a.movie"), 0
-    assert_equal @subscene_sub.match_point_for("not a movie"), 0
+    assert_equal @subscene_sub.match_point_for('not.a.movie'), 0
+    assert_equal @subscene_sub.match_point_for('not a movie'), 0
     assert_equal @subscene_sub.match_point_for('Agatha Christies Poirot S13E02 1080p BluRay x264 mkv'), 100
     assert_equal @subscene_sub.match_point_for('Christies S13E02 BluRay mkv'), 50
   end
@@ -37,8 +37,8 @@ class SubsceneTest < Minitest::Test
     assert_equal @subscene_sub.find_link(res), '/subtitles/agatha-christies-poirot-thirteenth-season/english/1811318'
   end
 
-  def xtest_download_file
-    @subscene_sub.download
-    assert File.exist? @current_dir+'/S13E02.1080p.BluRay.x264-YELLOWBiRD.srt'
+  def test_find_download_link
+    res = @subscene_sub.find_download_link(File.read(Dir.pwd + '/test/mocks/subscene_downloadpage'))
+    assert_equal res, 'https://subscene.com/subtitles/english-text/MGNU9jG42CkOL8vcxVwLzwaKhIvuPAE0Bb7OqO62gY8-mFppv1EKkdjJVrTFiRBfXA2sxFE5E8je3FtYz11K6jGRckMYNf6S5pPDSBLznnuUB5aV_PjsPghQ6YSPLzAW0'
   end
 end
