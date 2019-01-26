@@ -7,13 +7,7 @@
 
 You have a TV series without subtitles. Open the terminal, go to the folder where you saved your files, and run `subfinder`. It will find the similar subtitle files (only `.srt`) on the folder and rename it to video file. If the subtitles are not exists on your disk, then it will download, from the `subscene` URL you provided, extract and rename them.
 
-  
-  
-
 It works fine with the video file names which followed `S01E01` naming format.
-
-  
-  
 
 ## Installation
 

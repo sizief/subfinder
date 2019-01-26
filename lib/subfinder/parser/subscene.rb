@@ -20,7 +20,7 @@ module Subfinder
         open url
       rescue StandardError => e
         Logger.info "Error when connecting to '#{url}'\n Error message: #{e}\n".red
-        abort("Check your internet connection or VPN and try again")
+        abort('Check your internet connection or VPN and try again')
       end
 
       def find_download_link(page)
@@ -55,8 +55,8 @@ module Subfinder
         file_name_array = @file_name.split('.')
         # next we want to know if name of the sub is seprataed by . or space
         target_array = target.split('.').size > target.split(' ').size ? target.split('.') : target.split(' ')
-        target_array = target_array.map{|word| word.downcase}
-        
+        target_array = target_array.map(&:downcase)
+
         file_name_array.each do |word|
           point += 1 if target_array.include? word.downcase
         end

@@ -36,11 +36,12 @@ module Subfinder
       if subtitles.empty?
         Logger.info "Subtitle for #{File.basename(video_file)} is not exists on disk "
         subscene = Subfinder::Parser::Subscene.new(video_file)
-        if subscene.get
+        if !Config.url.nil? && subscene.get
           Subfinder::Parser::Files.prepare_file_list
           Logger.info "Subtitle downloaded for #{File.basename(video_file)}"
         else
           Logger.info "Subtitle can not found on Subscene for #{File.basename(video_file)}".red
+          Logger.info 'Please provide a url with "-u" siwtch'.red if Config.url.nil?
           @failure += 1
           return
         end

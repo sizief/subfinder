@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class SubfinderTest < Minitest::Test
-  def setup 
+  def setup
     Subfinder::Logger.setting
     Subfinder::Parser::Args.new %w[--url https://subscene.com/subtitles/the-kominsky-method -l fa]
     @current_dir = Dir.pwd + '/test/samples/integration_playground'
@@ -10,7 +10,7 @@ class SubfinderTest < Minitest::Test
     @file_name = 'the.kominsky.method.s01e08.webrip.x264-strife[eztv]'
     File.open("#{@current_dir}/#{@file_name}.mkv", 'w') { |f| f.write('this is sample file') }
   end
-  
+
   def test_that_it_has_a_version_number
     refute_nil ::Subfinder::VERSION
   end
@@ -26,4 +26,3 @@ class SubfinderTest < Minitest::Test
     FileUtils.rm_r @current_dir
   end
 end
-
