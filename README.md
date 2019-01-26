@@ -32,6 +32,9 @@ Or install it yourself as:
 Clone the project. Make changes and then `rake build` inside the project folder to create Gem.
 Then `gem install pkg/subfinder-0.0.1.gem` to install it locally. 
 Create a temp folder and run `movies_list_creator.rb` inside that folder. It will create fake files.
+Use following script to create a list_file of current episodes in any folder
+```ruby -e'Dir["#{Dir.pwd}/*"].each{ |file| File.open("#{Dir.pwd}/files_list.txt", "a") { |f| f.write(file.split("/").last+"\n") }}'```
+
 
 
 ## License
