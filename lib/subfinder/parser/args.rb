@@ -32,7 +32,7 @@ module Subfinder
         usage = '
           Usage:
             subfinder [options]
-            See https://github.com/sizief/subfinder for more information. Emm, nothing there really, just source code, if you want to improve the code or report a bug visit the page.
+            See https://github.com/sizief/subfinder for more information. 
         '
         usage
       end

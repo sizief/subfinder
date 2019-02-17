@@ -36,6 +36,8 @@ Then simply run:
 
 - Use `-u` or `--url` to specify a URL page of a TV series on `subscene.com` website.
 
+- Also see `sunfinder -h` for help
+
   
   
 
@@ -45,7 +47,8 @@ Then simply run:
 
 To run tests, run `rake test`.
 
-  
+
+To see all logs, run with `-d` or `--degub`
   
 
 Clone the project. Make changes and then `rake build` inside the project folder to create Gem.
@@ -94,9 +97,9 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 - [x] check for internet connectivity or issue for accessing blocked websites
 
-- [ ] move all other files from sub folders to main folder when extracting
-
 - [ ] add all language codes
+
+- [ ] move all other files from sub folders to main folder when extracting
 
 - [ ] add messages for timeout on web browsing
 
