@@ -2,8 +2,11 @@ PATH
   remote: .
   specs:
     subfinder (0.0.2)
+      bundler (~> 2.0.1)
       colorize (~> 0.8)
       nokogiri (~> 1.10.1)
+      rake (~> 10.0)
+      rest-client (~> 1.8.0)
       rubyzip (~> 1.2.2)
 
 GEM
@@ -49,10 +52,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.0.1)
   minitest (~> 5.0)
-  rake (~> 10.0)
-  rest-client (~> 1.8.0)
   subfinder!
   test-unit (~> 3.1.8)
   vcr (~> 4.0.0)
