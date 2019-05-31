@@ -1,13 +1,15 @@
 module Subfinder
   class Subtitle
+    
     def initialize
       @success = 0
       @failure = 0
     end
 
     def match
-      Subfinder::Parser::Files.list.each do |video_file|
-        next unless Subfinder::Config.video_formats.include? File.extname(video_file)
+      Parser::Files.list.each do |video_file|
+        # only consider video file types listed in confi
+        next unless Config.video_formats.include? File.extname(video_file)
         next if subtitle_exists? video_file
 
         if episode_number(video_file).nil?
@@ -28,16 +30,19 @@ module Subfinder
     end
 
     def subtitle_exists?(video_file)
-      return true if Subfinder::Parser::Files.list.include? video_file.split('.')[0..-2].join('.') + '.srt'
+      subtitle_file_name =  video_file.split('.')[0..-2].join('.') + '.srt'
+      if Parser::Files.list.include? subtitle_file_name
+        return true
+      end
     end
 
     def find_subtitle_for(video_file)
-      subtitles = Subfinder::Parser::Files.list.select { |item| item[/#{episode_number(video_file)}/i] && item[/.srt/] }
+      subtitles = Parser::Files.list.select { |item| item[/#{episode_number(video_file)}/i] && item[/.srt/] }
       if subtitles.empty?
-        Logger.info "Subtitle for #{File.basename(video_file)} is not exists on disk "
-        subscene = Subfinder::Parser::Subscene.new(video_file)
+        Logger.info "Subtitle for #{File.basename(video_file)} is not exists on disk. Trying to download..."
+        subscene = Parser::Subscene.new(video_file)
         if !Config.url.nil? && subscene.get
-          Subfinder::Parser::Files.prepare_file_list
+          Parser::Files.prepare_file_list
           Logger.info "Subtitle downloaded for #{File.basename(video_file)}"
         else
           Logger.info "Subtitle can not found on Subscene for #{File.basename(video_file)}".red
@@ -50,8 +55,12 @@ module Subfinder
     end
 
     def rename_subtitle(video_file)
-      subtitles = Subfinder::Parser::Files.list.select { |item| item[/#{episode_number(video_file)}/i] && item[/.srt/] }
-      File.rename(subtitles.first, File.dirname(subtitles.first) + '/' + File.basename(video_file).split('.')[0..-2].join('.') + '.srt')
+      subtitles = Parser::Files.list.select do
+        |item| item[/#{episode_number(video_file)}/i] && item[/.srt/] 
+      end
+      video_name = File.basename(video_file).split('.')[0..-2].join('.')
+      subtitle_name = File.dirname(subtitles.first) + '/' + video_name  + '.srt'
+      File.rename(subtitles.first, subtitle_name)
       Logger.info "Subtitle renamed for: #{File.basename(video_file)}"
       @success += 1
     end

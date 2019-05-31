@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['sizief@gmail.com']
 
   spec.summary       = 'Find or rename subtitle for your videos'
-  spec.description   = 'I would rename your current subtitle to amtch your video files or if it is not available then I would download it!'
+  spec.description   = 'I would rename your current subtitle to match your video files or if it is not available then I would download it!'
   spec.homepage      = 'https://github.com/sizief/subfinder'
   spec.license       = 'MIT'
 
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.16'
+  spec.add_development_dependency 'bundler', '~> 2.0.1'
   spec.add_development_dependency 'minitest', '~> 5.0'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_runtime_dependency 'colorize', '~> 0.8'
