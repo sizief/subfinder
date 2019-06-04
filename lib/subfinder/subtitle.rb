@@ -26,7 +26,8 @@ module Subfinder
     private
 
     def episode_number(video_file)
-      video_file.scan(/[a-zA-Z]+\d+\d+[a-zA-Z]+\d+\d/).first.downcase
+      episode = video_file.scan(/[a-zA-Z]+\d+\d+[a-zA-Z]+\d+\d/)
+      episode.nil? ? nil : episode.first.downcase
     end
 
     def subtitle_exists?(video_file)
