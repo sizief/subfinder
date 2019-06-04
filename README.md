@@ -24,15 +24,16 @@ Then simply run:
 
 `$ gem install subfinder`
 
-  
+Without any switches, this will unzip all zipped or compressed files and find/rename them to correspondent video file. Also you can provide the URL for `subscene.com` list page with `-u` and it would download the correct file and do the rest.
 
 ## Usage
+
 
   
 
 `$ subfinder -u https://subscene.com/subtitles/the-kominsky-method -l fa`
 
-- Use `-l` or `--language`for subtitle language you want. Default is English.
+- Use `-l` or `--language`for subtitle language you want. Default is English. Right now only `fa` and `en` are supported.
 
 - Use `-u` or `--url` to specify a URL page of a TV series on `subscene.com` website.
 
@@ -43,7 +44,7 @@ Then simply run:
 
 ## Development
 
-  
+* Please report any broken thing using Github issues *
 
 To run tests, run `rake test`.
 
