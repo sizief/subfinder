@@ -1,4 +1,5 @@
 require 'rest-client'
+
 module Subfinder
   module Parser
     class Download
@@ -8,6 +9,7 @@ module Subfinder
 
       def save
         res = RestClient.get @url
+        return false unless  @url =~ URI::regexp
         return false unless response_is_healthy? res
 
         file_name = res.headers[:content_disposition].split('=')[1]

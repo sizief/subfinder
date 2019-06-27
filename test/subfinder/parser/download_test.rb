@@ -12,7 +12,7 @@ class DownnloadTest < Minitest::Test
     FileUtils.rm_r @current_dir
   end
 
-  def xtest_false_save
+  def test_false_save
     assert(!Subfinder::Parser::Download.new('wrong address').save)
     VCR.use_cassette('wrong_download_url') do
       assert(!Subfinder::Parser::Download
