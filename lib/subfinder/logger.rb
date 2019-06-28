@@ -1,4 +1,8 @@
+# frozen_string_literal: true
+
 module Subfinder
+
+  # Logger class, shoud initiate at the start of the program
   class Logger < ::Logger
     class << self
       def setting
@@ -11,7 +15,7 @@ module Subfinder
       end
 
       def info(str)
-        @logger.info(str)
+        @logger.info(str) unless Config.quiet
       end
 
       def debug(str)

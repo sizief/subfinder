@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'nokogiri'
 require 'open-uri'
 
@@ -5,7 +7,7 @@ module Subfinder
   module Parser
     class Subscene
       attr_reader :link
-      DOMAIN = 'https://subscene.com'.freeze
+      DOMAIN = 'https://subscene.com'
 
       def initialize(file_name)
         @file_name = file_name

@@ -1,6 +1,7 @@
+# frozen_string_literal: true
+
 module Subfinder
   class Subtitle
-    
     def initialize
       @success = 0
       @failure = 0
@@ -31,10 +32,8 @@ module Subfinder
     end
 
     def subtitle_exists?(video_file)
-      subtitle_file_name =  video_file.split('.')[0..-2].join('.') + '.srt'
-      if Parser::Files.list.include? subtitle_file_name
-        return true
-      end
+      subtitle_file_name = video_file.split('.')[0..-2].join('.') + '.srt'
+      return true if Parser::Files.list.include? subtitle_file_name
     end
 
     def find_subtitle_for(video_file)
@@ -56,11 +55,11 @@ module Subfinder
     end
 
     def rename_subtitle(video_file)
-      subtitles = Parser::Files.list.select do
-        |item| item[/#{episode_number(video_file)}/i] && item[/.srt/] 
+      subtitles = Parser::Files.list.select do |item|
+        item[/#{episode_number(video_file)}/i] && item[/.srt/]
       end
       video_name = File.basename(video_file).split('.')[0..-2].join('.')
-      subtitle_name = File.dirname(subtitles.first) + '/' + video_name  + '.srt'
+      subtitle_name = File.dirname(subtitles.first) + '/' + video_name + '.srt'
       File.rename(subtitles.first, subtitle_name)
       Logger.info "Subtitle renamed for: #{File.basename(video_file)}"
       @success += 1

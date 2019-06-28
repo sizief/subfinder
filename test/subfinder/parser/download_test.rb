@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
 class DownnloadTest < Minitest::Test
@@ -23,14 +25,14 @@ class DownnloadTest < Minitest::Test
 
   def test_true_save
     VCR.use_cassette('download_subtitle') do
-      url = 'https://subscene.com/subtitles/english-text/sHJhr2I4lE-yw2DpHCHhU6LyQAVblnCco40Xz5BU-xauDoWZfM8IhubEeueArDbYwwz751JTHn1HgswFviy0JfUrVjFwswSoC9tjHmgomeZeWjSXSjgUnYAVQr12v6U30'.freeze
+      url = 'https://subscene.com/subtitles/english-text/sHJhr2I4lE-yw2DpHCHhU6LyQAVblnCco40Xz5BU-xauDoWZfM8IhubEeueArDbYwwz751JTHn1HgswFviy0JfUrVjFwswSoC9tjHmgomeZeWjSXSjgUnYAVQr12v6U30'
       assert(Subfinder::Parser::Download.new(url).save)
     end
   end
 
   def test_file_exist_after_save
     VCR.use_cassette('download_subtitle') do
-      url = 'https://subscene.com/subtitles/english-text/sHJhr2I4lE-yw2DpHCHhU6LyQAVblnCco40Xz5BU-xauDoWZfM8IhubEeueArDbYwwz751JTHn1HgswFviy0JfUrVjFwswSoC9tjHmgomeZeWjSXSjgUnYAVQr12v6U30'.freeze
+      url = 'https://subscene.com/subtitles/english-text/sHJhr2I4lE-yw2DpHCHhU6LyQAVblnCco40Xz5BU-xauDoWZfM8IhubEeueArDbYwwz751JTHn1HgswFviy0JfUrVjFwswSoC9tjHmgomeZeWjSXSjgUnYAVQr12v6U30'
       Subfinder::Parser::Download.new(url).save
       assert(!Dir[Subfinder::Config.working_dir + '/*'].empty?)
     end

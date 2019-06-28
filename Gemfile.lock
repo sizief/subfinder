@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    subfinder (0.0.2.3)
+    subfinder (0.0.2.4)
       bundler (~> 2.0.1)
       colorize (~> 0.8)
       nokogiri (~> 1.10.1)
