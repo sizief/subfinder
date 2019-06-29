@@ -36,7 +36,7 @@ jobs:
           name: install dependencies
           command: |
             #bundle install --jobs=4 --retry=3 --path vendor/bundle
-            bundle install --jobs=4 --retry=3 --trace
+            bundle install --jobs=4 --retry=3
 
       - save_cache:
           paths:
@@ -52,7 +52,7 @@ jobs:
           name: run tests
           command: |
             mkdir /tmp/test-results
-            rake test
+            rake test --trace
 
       # collect reports
       - store_test_results:
