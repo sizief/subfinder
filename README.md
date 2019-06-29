@@ -10,26 +10,19 @@ You have a TV series without subtitles. Open the terminal, go to the folder wher
 
 It works fine with the video file names which followed `S01E01` naming format.
 
-## Installation
 
-  
+## Installation  
 
 First you need to have `Ruby` and `Gem` on your machine.
 
-  
-
 Then simply run:
-
-  
 
 `$ gem install subfinder`
 
 Without any switches, this will unzip all zipped or compressed files and find/rename them to correspondent video file. Also you can provide the URL for `subscene.com` list page with `-u` and it would download the correct file and do the rest.
 
-## Usage
 
-
-  
+## Usage  
 
 `$ subfinder -u https://subscene.com/subtitles/the-kominsky-method -l fa`
 
@@ -37,10 +30,11 @@ Without any switches, this will unzip all zipped or compressed files and find/re
 
 - Use `-u` or `--url` to specify a URL page of a TV series on `subscene.com` website.
 
-- Also see `sunfinder -h` for help
+- Run `subfinder --dryrun` to create set of mock files on you current directory and running Subfinder.
 
+- Also see `sunfinder -h` for help  
   
-  
+
 
 ## Development
 
@@ -48,58 +42,19 @@ Without any switches, this will unzip all zipped or compressed files and find/re
 
 To run tests, run `rake test`.
 
-
-To see all logs, run with `-d` or `--degub`
-  
+To see all logs, run with `-d` or `--degub`  
 
 Clone the project. Make changes and then `rake build` inside the project folder to create Gem.
 
 Then `gem install pkg/subfinder-0.0.1.gem` to install it locally.
 
-Create a temp folder and run `movies_list_creator.rb` inside that folder. It will create fake files.
-
-  
-  
 
 ## License
 
-  
-
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-  
-  
 
 # TODO
 
-- [x] get sub title language
+- Add all language codes
 
-- [x] extract all files
-
-- [x] list all files
-
-- [x] match srt for each video file
-
-- [x] rename all matches
-
-- [x] move all other files to extract folder
-
-- [x] if not available then find it online test
-
-- [x] if not available then find it online code
-
-- [x] if language sub is not available then find English
-
-- [x] download match subtitle
-
-- [x] check for internet connectivity or issue for accessing blocked websites
-
-- [ ] add all language codes
-
-- [ ] move all other files from sub folders to main folder when extracting
-
-- [ ] add messages for timeout on web browsing
-
-- [ ] save user entered config for later use
-
-- [ ] Writing article about it (VCR)
