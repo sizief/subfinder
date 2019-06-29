@@ -2,6 +2,7 @@
 
 module Subfinder
   module Parser
+    # Download subtitle files from Internet
     class Download
       def initialize(url)
         @url = url
@@ -23,11 +24,11 @@ module Subfinder
 
       def response_is_healthy?(res)
         if res.code != 200
-          Logger.info "Error when downloading '#{@url}'\n Error message: resposnse code is #{res.code}\n".red
-          false
+          Logger.info "Error when downloading '#{@url}'\n resposnse code: #{res.code}\n".red
+          return false
         elsif res.body.include? 'An error occurred while processing your request.'
-          Logger.info "Error when downloading '#{@url}'\n Error message:  'An error occurred while processing your request.'\n".red
-          false
+          Logger.info "Error downloading '#{@url}'. Try Again in few seconds".red
+          return false
         else
           true
         end

@@ -85,6 +85,12 @@ module Subfinder
           'fa'
         when 'English'
           'en'
+        when 'Arabic'
+          'ar'
+        when 'French'
+          'fr'
+        when 'Spanish'
+          'es'
         else
           language
         end
