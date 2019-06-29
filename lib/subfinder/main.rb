@@ -6,9 +6,9 @@ module Subfinder
   class Main
     class << self
       def run(args)
-        Subfinder::Logger.setting
-        Subfinder::Parser::Args.new args
-        Subfinder::Subtitle.new.match
+        Logger.setting
+        Parser::Args.new args
+        Subtitle.new.match
       end
     end
   end

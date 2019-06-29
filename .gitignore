@@ -7,4 +7,5 @@
 /spec/reports/
 /tmp/
 .DS*
+*.swp
 /dryrun_test_directory/
