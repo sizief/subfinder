@@ -11,14 +11,15 @@ Gem::Specification.new do |spec|
   spec.email         = ['sizief@gmail.com']
 
   spec.summary       = 'Find or rename subtitle for your videos'
-  spec.description   = 'I would rename your current subtitle to match your video files or if it is not available then I would download it!'
+  spec.description   = 'Download or rename subtitle files to match video files'
   spec.homepage      = 'https://github.com/sizief/subfinder'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
-  # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files         = Dir.chdir(File.expand_path(__dir__)) do
-    `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+    `git ls-files -z`.split("\x0").reject do |f|
+      f.match(%r{^(test|spec|features)/})
+    end
   end
   spec.bindir        = 'bin'
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

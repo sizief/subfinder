@@ -5,6 +5,7 @@ require 'colorize'
 require 'logger'
 require 'optparse'
 require 'zip'
+require 'rest-client'
 
 require_relative 'subfinder/version'
 require_relative 'subfinder/subtitle'

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module Subfinder
+  # Find and match subtitles
   class Subtitle
     def initialize
       @success = 0
@@ -14,14 +15,17 @@ module Subfinder
         next if subtitle_exists? video_file
 
         if episode_number(video_file).nil?
-          Logger.info "Can not find the episode and season number for: #{File.basename(video_file)}".red
+          Logger.info 'Can not find the episode and season number for:'\
+                      " #{File.basename(video_file)}".red
           @failure += 1
           next
         else
           find_subtitle_for video_file
         end
       end
-      Logger.info "Sub added: #{@success}, Sub not found: #{@failure}, Total file proccessed: #{@failure + @success}".green
+      Logger.info "Subtitle added: #{@success}, "\
+                  " Not found: #{@failure}, "\
+                  "Total file proccessed: #{@failure + @success}".green
     end
 
     private
@@ -39,7 +43,8 @@ module Subfinder
     def find_subtitle_for(video_file)
       subtitles = Parser::Files.list.select { |item| item[/#{episode_number(video_file)}/i] && item[/.srt/] }
       if subtitles.empty?
-        Logger.info "Subtitle for #{File.basename(video_file)} is not exists on disk. Trying to download..."
+        Logger.info "Subtitle for #{File.basename(video_file)}"\
+                    ' is not exists on disk. Trying to download...'
         subscene = Parser::Subscene.new(video_file)
         if !Config.url.nil? && subscene.get
           Parser::Files.prepare_file_list
@@ -61,7 +66,7 @@ module Subfinder
       video_name = File.basename(video_file).split('.')[0..-2].join('.')
       subtitle_name = File.dirname(subtitles.first) + '/' + video_name + '.srt'
       File.rename(subtitles.first, subtitle_name)
-      Logger.info "Subtitle renamed for: #{File.basename(video_file)}"
+      Logger.debug "Subtitle renamed for: #{File.basename(video_file)}"
       @success += 1
     end
   end

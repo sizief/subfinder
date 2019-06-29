@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 require 'nokogiri'
-require 'open-uri'
 
 module Subfinder
   module Parser
+    # Find related subtitle file from Subscene list page
     class Subscene
       attr_reader :link
       DOMAIN = 'https://subscene.com'
@@ -19,7 +19,7 @@ module Subfinder
       end
 
       def open_online_document(url)
-        open url
+        RestClient.get url
       rescue StandardError => e
         Logger.info "Error when connecting to '#{url}'\n Error message: #{e}\n".red
         abort('Check your internet connection or VPN and try again')

@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 module Subfinder
-
   # Logger class, shoud initiate at the start of the program
   class Logger < ::Logger
     class << self
