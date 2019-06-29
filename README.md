@@ -1,6 +1,8 @@
 
 [![CircleCI](https://circleci.com/gh/sizief/subfinder.svg?style=svg)](https://circleci.com/gh/sizief/subfinder) [![Maintainability](https://api.codeclimate.com/v1/badges/847c36c4319bef81de03/maintainability)](https://codeclimate.com/github/sizief/subfinder/maintainability)
-[![Gem Version](https://badge.fury.io/rb/subfinder.svg)](https://badge.fury.io/rb/subfinder)
+[![Gem Version](https://badge.fury.io/rb/subfinder.svg)](https://badge.fury.io/rb/subfinder)  
+
+![How-to](presentation/sample.gif)   
 
 **This Gem only works for video files with `S[Number]E[Number]` (i.e., S01E02) format in their names.**  
 
